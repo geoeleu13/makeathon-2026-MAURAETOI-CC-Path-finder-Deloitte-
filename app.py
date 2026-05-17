@@ -21,10 +21,10 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 GROQ_MODEL = "llama-3.1-8b-instant"
 
 WELCOME_MESSAGE = (
-    "Hi! I'm <b>Pathfinder</b>, your AI companion for sustainable hiking in Greece.<br><br>"
+    "Hi! I'm <b>Pathfinder</b>, your AI companion for sustainable travel in Greece.<br><br>"
     "To give you the best dynamic recommendations, please answer these <b>3 simple questions</b>:<br>"
-    "1. <b>Difficulty</b> — Easy, moderate, hard, or expert?<br>"
-    "2. <b>Time available</b> — e.g., 2-3 hours, half day, full day?<br>"
+    "1. <b>Activity Level</b> — Easy walks, moderate hikes, or expert trails?<br>"
+    "2. <b>Trip Duration</b> — e.g., a weekend getaway, a few days, or 1-2 weeks?<br>"
     "3. <b>Landscape</b> — Do you prefer mountains or sea/coast?<br><br>"
     "Once you reply, I will present the top regions in Greece beautifully tailored just for you!"
 )
